@@ -1,5 +1,5 @@
 ## Choropleth Map
-The choropleth map shows the number of protests in different states from 1/15/2017 to 1/31/2021. You can find the original data here: https://countlove.org/data/data.csv
+The choropleth map shows the number of protests in different states from 1/15/2017 to 1/31/2021. You can find the original raw data here: https://countlove.org/data/data.csv
 
 California and New York show a substantially more significant number of protests (N~2700). The number is roughly even across the midwestern US. 
 
