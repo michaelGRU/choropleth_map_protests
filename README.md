@@ -5,8 +5,25 @@ California and New York show a substantially more significant number of protests
 
 <p align="center"><img src="https://raw.githubusercontent.com/michaelGRU/choropleth_map-/main/python_choropleth.jpeg?token=ANOMW4GIZDUXUUW2KWBY4GLASZB4Y"></p>
 
+
 <details>
-<summary>Python - Data Visualization</summary>
+<summary>SQL</summary>
+
+```sql
+SELECT [State], Code, N 
+FROM 
+(SELECT state_abbrev, count(df.Source) N
+FROM dbo.df
+GROUP BY state_abbrev) as subq1,
+(SELECT * FROM dbo.us_state) as subq2 
+WHERE subq1.state_abbrev = subq2.Code
+```
+</details>
+
+
+
+<details>
+<summary>Python</summary>
 
 ```python
 import pandas as pd
@@ -39,7 +56,7 @@ fig.show()
 
 
 <details>
-<summary>R - Data wrangling</summary>
+<summary>R</summary>
 
 ```r
 library(dplyr)
