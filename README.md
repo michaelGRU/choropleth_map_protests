@@ -3,7 +3,7 @@ The choropleth map shows the number of protests in different states from 1/15/20
 
 California and New York show a substantially more significant number of protests (N~2700). The number is roughly even across the midwestern US. 
 
-<p align="center"><img src="https://raw.githubusercontent.com/michaelGRU/choropleth_map-/main/python_choropleth.jpeg?token=ANOMW4GIZDUXUUW2KWBY4GLASZB4Y"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/michaelGRU/choropleth_map_protests/main/python_choropleth.jpeg"></p>
 
 
 <details>
